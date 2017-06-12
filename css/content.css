@@ -1,0 +1,33 @@
+.form-text-size{ /*控制表格的文字*/
+  font-size:12pt;
+}
+.nav-text{  /*nav字型變大*/
+  font-size: 18px;
+}
+.table-text{  /*表格字型變大*/
+  font-size: 15px;
+}
+.choose{  /*選取框框框框變大*/
+  width:20px;
+  height:20px;
+}
+
+.topnav{ /*上面的按鈕用的*/
+  font-size:18pt;
+}
+.back-btn{ /*back_content用的*/
+  margin-top: 20px;
+}
+.back-legend{ /*back_content用的*/
+  font-weight: bold;
+}
+.li-font-size{
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 30px;
+}
+.textarea-size{
+  height: 200px;
+  width: 280px;
+  resize: none;
+}

@@ -1,0 +1,12 @@
+.county {
+    font-size:12pt;
+}
+.district {
+	font-size:12pt;
+	margin-left: 5px;
+}
+.zipcode {
+    font-size:12pt;
+	margin-left: 5px;
+	width: 80px;
+}

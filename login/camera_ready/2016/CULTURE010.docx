@@ -1,0 +1,27 @@
+<?php
+	
+	if($_GET['action']=='dw'){
+		$file ='../ln_upload/<?php $row_data2['file_name'];?>';   //要下?的路?文件
+		$filename = '<?php $row_data2['file_name'];?>'; //??只是文件的名字
+		header("Content-Type: application/force-download");
+		header("Content-Disposition: attachment; filename=".($filename));
+		readfile($file);
+}	
+	readfile($url.str_replace("@","",$file));	
+	exit(0);
+	}else{
+	echo "找不到相關檔案....";
+}
+	
+	?>
+
+
+
+
+<?php do{?>
+
+
+<?php } while($row_data2 = mysqli_fetch_assoc($data2)); ?>
+
+
+<a href="../ln_upload/<?php $row_data2['file_name']?>">附件下載</a>
